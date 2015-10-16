@@ -1,9 +1,8 @@
 ####This is technical task for Citrix company interview.
 
 ##How To Run Tests:
-1. Run next Maven command in command line, from the root of project:
+Run next Maven command in command line, from the root of project:  
 `mvn clean compile test -Dtest=com.citrix.podio.test.* -DargLine="-DPassword=YOUR_PASSWORD -DLogin=YOUR_LOGIN"`
-
 Before running please substitude `YOUR_PASSWORD and YOUR_LOGIN` with valid credentials.
 
 ###Test Cases in suite:
